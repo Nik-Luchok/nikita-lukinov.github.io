@@ -1,0 +1,79 @@
+/* Nav */
+
+.nav-link:hover{
+    border-bottom: solid 1px orange;
+}
+
+/* Logo */
+
+.span-red{
+    color: red;
+}
+
+/* Video */
+
+.video-wrapper{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+
+    z-index: -1;
+}
+
+#video{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: .8;
+}
+
+/* intro */
+
+.intro{
+    color: #fff;
+    display: flex;
+    align-items: center;
+
+    height: 70vh;
+}
+
+.intro-nature{
+    text-align: center;
+    height: calc(100vh - 62px);
+    margin-bottom: 2em;
+}
+
+
+.intro__text{
+    font-size: 1.2em;
+    max-width: 85ch;
+    color: #ccc;
+
+    padding: 0 .4em;
+    margin: 0.5em -.4em 0;
+
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.intro__title-nature{
+    font-size: 3em;
+}
+
+/* Toggler */
+
+.toggler{
+    margin-top: 4em;
+}
+
+.toggler__text{
+    max-width: 40ch;
+}
+
