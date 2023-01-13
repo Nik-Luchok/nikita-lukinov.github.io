@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Odessa Love</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+  </head>
+  <body data-bs-theme="light">
+    <div class="video-wrapper">
+        <video autoplay muted loop id="video">
+            <source src="assets/video/bg.mp4" type="video/mp4">
+        </video>
+    </div>
+
+   <header class="header" data-bs-theme="light">
+       <div class="container" data-bs-theme="light">
+            <nav class="navbar text-warning navbar-expand-sm justify-content-between" data-bs-theme="dark">
+
+                <a class="navbar-brand fs-4" href="index.html">Odessa <strong class="span-red">Love</strong></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end font-size-20px" data-bs-theme="light" id="navbarContent">
+                    <div class="navbar-nav fs-5 ">
+                        <a class="nav-link active" aria-current="page" href="index.html" data-bs-theme="light">Home</a>
+                        <a class="nav-link" href="Culture.html" data-bs-theme="light">Culture </a>
+                        <a class="nav-link" href="Night.html">Night</a>
+                        <a class="nav-link" href="Nature.html" data-bs-theme="light">Nature</a>
+                    </div>
+                </div>
+
+            </nav>
+       </div>
+   </header>
+
+   <section class="intro">
+    <div class="container">
+        <h1 class="intro__title">This is CS50 ProblemSet 8 HomePage!</h1>
+        <p class="intro__text">
+             And a tribute to my hometown on a shore of the Black Sea - <span class="span-red">Odessa</span>.
+
+             I hope to catch your interest and show this beautiful city from my perspective.
+        </p>
+        <div class="toggler">
+            <p class="toggler__text">
+                Press <span class="text-warning">Unmute</span> to play some of the most iconic songs about Odessa
+            </p>
+            <button class="toggler__item btn btn-outline-light" type="button" id="toggler-play">
+                Pause
+            </button>
+            <button class="toggler__item btn btn-outline-warning" type="button" id="toggler-mute">
+                Unmute
+            </button>
+        </div>
+    </div>
+   </section>
+   <script src="assets/js/video_toggler.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
